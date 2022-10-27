@@ -12,5 +12,5 @@ jobs:
           curl -X POST \
           -H "Authorization: Bearer ${{secrets.ACCESS_TOKEN}}" \
           -H "Accept: application/vnd.github.v3+json" \
-          https://api.github.com/repos/atgane/s3-deploy-test/actions/workflows/deploy.yml/dispatches \
+          https://api.github.com/repos/adelie-penguin-sw/test-s3-cicd/actions/workflows/deploy.yml/dispatches \
           -d '{"ref": "dev"}'
